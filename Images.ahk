@@ -1,3 +1,11 @@
+#SingleInstance, Force
+#NoEnv
+Menu Tray, NoStandard
+Menu Tray, Add, Exit, Exit
+Exit()
+{
+    ExitApp
+}
 UrlDownloadToFile, https://github.com/philobater/ahk-test/raw/main/Images/Add_email.bmp, Script\Add_email.bmp
 UrlDownloadToFile, https://github.com/philobater/ahk-test/raw/main/Images/Add_email_alt.bmp, Script\Add_email_alt.bmp
 UrlDownloadToFile, https://github.com/philobater/ahk-test/raw/main/Images/Add_email_alternative.bmp, Script\Add_email_alternative.bmp
